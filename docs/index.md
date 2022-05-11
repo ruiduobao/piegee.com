@@ -2,27 +2,38 @@
 home: true
 # heroImage: /img/web.png
 heroText: 遥感云计算
-tagline: 遥感/地信/编程软件类教程
+tagline: GEE/PIE/MPC教程网
 actionText: 开始寻找教程 →
 actionLink: /data-gis/
 # heroImage: /javascript-illustration.png
 bannerBg:  none
 # bannerBg: auto # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
-title: 探索地信遥感资源教程
+title: 探索遥感云计算
 features: # 可选的
-  - title: GIS数据教程
-    details: 基础矢量地理、栅格等数据下载教程
+  - title: GEE教程
+    details: JavaScript、python与API
     imgUrl: /img/gis2.svg
     link: /data-gis/
-  - title: RS数据教程
-    details: 遥感卫星原始与产品数据下载教程
+  - title: PIE教程
+    details: JavaScript、python
     imgUrl: /img/rs2.svg
     link: /data-rs/
-  - title: 网站导航
+  - title: MPC教程
     details: 几千个数据与科学网站汇总
     imgUrl: /img/soft2.svg
     link: /daohang_web/
-
+  - title: GEE数据
+    details: 600余个数据集
+    imgUrl: /img/gis2.svg
+    link: /data-gis/
+  - title: PIE数据
+    details: 200余个数据集
+    imgUrl: /img/rs2.svg
+    link: /data-rs/
+  - title: MPC数据
+    details: 几十个数据集
+    imgUrl: /img/soft2.svg
+    link: /daohang_web/
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 postList: simple
 simplePostListLength: 8 # 简约版文章列表显示的文章数量，默认10。（仅在postList设置为simple时生效）
