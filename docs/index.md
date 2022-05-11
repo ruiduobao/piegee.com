@@ -1,7 +1,7 @@
 ---
 home: true
 # heroImage: /img/web.png
-heroText: 地信遥感数据汇
+heroText: 遥感云计算
 tagline: 遥感/地信/编程软件类教程
 actionText: 开始寻找教程 →
 actionLink: /data-gis/
