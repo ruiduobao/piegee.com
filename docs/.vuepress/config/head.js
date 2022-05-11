@@ -7,7 +7,7 @@ module.exports = [
     'meta',
     {
       name: 'keywords',
-      content: '地理信息系统,地信,遥感,GIS,RS,遥感云计算',
+      content: '遥感云计算教程网,Google earth engine,PIE Engine,Microsoft Planetary Computer',
     },
   ],
   // [
