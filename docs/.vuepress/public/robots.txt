@@ -1,2 +1,2 @@
-Sitemap: https://www.gisrsdata.com/sitemap.xml
+Sitemap: https://www.piegee.com/sitemap.xml
 User-agent: *

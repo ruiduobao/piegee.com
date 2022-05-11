@@ -10,14 +10,14 @@ yarn build
 cd docs/.vuepress/dist
 
 # deploy to github pages
-echo 'gisrsdata.com' > CNAME
+echo 'piegee.com' > CNAME
 
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
-  githubUrl=git@github.com:ruiduobao/gisrsdata.com.git
+  githubUrl=git@github.com:ruiduobao/piegee.com.git
 else
   msg='来自github actions的自动部署'
-  githubUrl=https://ruiduobao:${GITHUB_TOKEN}@github.com:ruiduobao/gisrsdata.com.git
+  githubUrl=https://ruiduobao:${GITHUB_TOKEN}@github.com:ruiduobao/piegee.com.git
   git config --global user.name "ruiduobao"
   git config --global user.email "kitmyfaceplease2@gmail.com"
 fi

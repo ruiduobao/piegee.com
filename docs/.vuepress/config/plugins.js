@@ -34,7 +34,7 @@ module.exports = [
   //       // },
   //       {
   //         title: '通过百度搜索本站的',
-  //         frontUrl: 'https://www.baidu.com/s?wd=site%www.gisrsdata.com%20',
+  //         frontUrl: 'https://www.baidu.com/s?wd=site%www.piegee.com%20',
   //       },
   //     ],
   //   },
@@ -87,7 +87,7 @@ module.exports = [
   //     options: {
   //       clientID: 'dcdbf4a1c9e556f6d015',
   //       clientSecret: 'bbf3308e29305da34a2d18cb02a44a2b58f37824',
-  //       repo: 'gisrsdata.com', // GitHub 仓库
+  //       repo: 'piegee.com', // GitHub 仓库
   //       owner: 'ruiduobao', // GitHub仓库所有者
   //       admin: ['ruiduobao'], // 对仓库有写权限的人
   //       // distractionFreeMode: true,
@@ -110,7 +110,7 @@ module.exports = [
     },
   ],  
     ['sitemap', {
-      hostname: "http://gisrsdata.com",
+      hostname: "http://piegee.com",
     }],
     ['vuepress-plugin-baidu-autopush'],
     ['autometa'],
