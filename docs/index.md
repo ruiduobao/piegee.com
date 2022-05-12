@@ -12,27 +12,27 @@ title: 探索遥感云计算
 features: # 可选的
   - title: GEE教程
     details: JavaScript、python与API
-    imgUrl: /img/gis2.svg
+    imgUrl: /img/GEE.svg
     link: /data-gis/
   - title: PIE教程
     details: JavaScript、python
-    imgUrl: /img/rs2.svg
+    imgUrl: /img/PIE.svg
     link: /data-rs/
   - title: MPC教程
     details: 几千个数据与科学网站汇总
-    imgUrl: /img/soft2.svg
+    imgUrl: /img/MPC.svg
     link: /daohang_web/
   - title: GEE数据
     details: 600余个数据集
-    imgUrl: /img/gis2.svg
+    imgUrl: /img/GEE.svg
     link: /data-gis/
   - title: PIE数据
     details: 200余个数据集
-    imgUrl: /img/rs2.svg
+    imgUrl: /img/PIE.svg
     link: /data-rs/
   - title: MPC数据
     details: 几十个数据集
-    imgUrl: /img/soft2.svg
+    imgUrl: /img/MPC.svg
     link: /daohang_web/
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 postList: simple
