@@ -3,7 +3,7 @@ home: true
 # heroImage: /img/web.png
 heroText: 遥感云计算
 tagline: GEE/PIE/MPC教程网
-actionText: 开始寻找教程 →
+actionText: 开始 →
 actionLink: /data-gis/
 # heroImage: /javascript-illustration.png
 bannerBg:  none
