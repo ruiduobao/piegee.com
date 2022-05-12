@@ -4,8 +4,8 @@
         <animateTransform attributeName="transform"
                           attributeType="XML"
                           type="rotate"
-                          from="0 20 20"
-                          to="360 20 20"
+                          from="0 1 1"
+                          to="360 1 1"
                           dur="10s"
                           repeatCount="indefinite"/>
 </svg>
