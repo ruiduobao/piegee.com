@@ -54,7 +54,7 @@ module.exports = [
   
   {
     text: 'MPC',
-    link: '/daohang_web/',
+    link: '/MPC/',
     items: [
       { text: 'MPC-Python', link: '/MPC-Python/' },
       { text: 'MPC数据', link: '/MPC-DATA/'},
