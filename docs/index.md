@@ -19,7 +19,7 @@ features: # 可选的
     imgUrl: /img/PIE.svg
     link: /PIE-JavaScript/
   - title: MPC教程
-    details: python与数十个个数据集
+    details: python与数十个数据集
     imgUrl: /img/MPC.svg
     link: /MPC-Python/
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表

@@ -61,6 +61,13 @@ module.exports = [
     ],
   },
   {
+    text: 'AI Earth',
+    link: '/AI_Earth/',
+    items: [
+      { text: 'AI-Earth数据', link: '/AI-Earth-DATA/' },
+    ],
+  },
+  {
     text: '其他',
     items: [
       { text: '网站时间线', link: '/archives/' },
