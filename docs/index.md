@@ -3,7 +3,7 @@ home: true
 # heroImage: /img/web.png
 heroText: 遥感云计算
 tagline: GEE/PIE/MPC教程网
-actionText: 开始寻找教程 →
+actionText: 开始 →
 actionLink: /data-gis/
 # heroImage: /javascript-illustration.png
 bannerBg:  none
@@ -11,6 +11,7 @@ bannerBg:  none
 title: 探索遥感云计算
 features: # 可选的
   - title: GEE教程
+<<<<<<< HEAD
     details: JavaScript、python、API、600个数据集
     imgUrl: /img/GEE.svg
     link: /data-gis/
@@ -20,6 +21,17 @@ features: # 可选的
     link: /data-rs/
   - title: MPC教程
     details: Python、几十个数据集
+=======
+    details: JavaScript、python、API与600个数据集
+    imgUrl: /img/GEE.svg
+    link: /data-gis/
+  - title: PIE教程
+    details: JavaScript、python与200个数据集
+    imgUrl: /img/PIE.svg
+    link: /data-rs/
+  - title: MPC教程
+    details: python与数十个个数据集
+>>>>>>> 53a7cd7351bee83abc07f453c05b7c92147754e5
     imgUrl: /img/MPC.svg
     link: /daohang_web/
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
