@@ -32,7 +32,7 @@ module.exports = [
         var _hmt = _hmt || [];
         (function() {
         var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?a5d8638f6272059b83cf3287169064ef";
+        hm.src = "https://hm.baidu.com/hm.js?652dff4a97cfefc427de3ef43c1e47a5";
         var s = document.getElementsByTagName("script")[0]; 
         s.parentNode.insertBefore(hm, s);
       })();
@@ -44,7 +44,7 @@ module.exports = [
   {},
   `
   var el = document.createElement("script");
-  el.src = "https://lf1-cdn-tos.bytegoofy.com/goofy/ttzz/push.js?57b4417e5af27bb556862ddd1035af3b86d25aa934a0544184d9d963cc7f779465e0a2ada1d5e86b11e7de7c1a83287d04743a02fd1ee8dd8558a8cad50e91cb354f8c6f3f78e5fd97613c481f678e6d";
+  el.src = "https://lf1-cdn-tos.bytegoofy.com/goofy/ttzz/push.js?8ae9cf0555bf22d591de9aea9d413c2a30ff9ef735fde1460c92e0e306d05f3ffd9a9dcb5ced4d7780eb6f3bbd089073c2a6d54440560d63862bbf4ec01bba3a";
   el.id = "ttzz";
   var s = document.getElementsByTagName("script")[0];
   s.parentNode.insertBefore(el, s);
