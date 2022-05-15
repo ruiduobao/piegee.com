@@ -60,13 +60,7 @@ module.exports = [
       { text: 'MPC数据', link: '/MPC-DATA/'},
     ],
   },
-  {
-    text: 'AI Earth',
-    link: '/AI_Earth/',
-    items: [
-      { text: 'AI-Earth数据', link: '/AI-Earth-DATA/' },
-    ],
-  },
+
   {
     text: '其他',
     items: [
