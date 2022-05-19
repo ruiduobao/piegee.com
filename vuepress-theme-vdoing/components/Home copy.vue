@@ -12,6 +12,23 @@
           !homeData.features && !homeData.heroImage && `padding-top: 7rem`
         "
       >
+        <header class="hero">
+          <img
+            v-if="homeData.heroImage"
+            :src="$withBase(homeData.heroImage)"
+            :alt="homeData.heroAlt"
+          />
+          <h1 v-if="homeData.heroText" id="main-title">
+            {{ homeData.heroText }}
+          </h1>
+          <p v-if="homeData.tagline" class="description">
+            {{ homeData.tagline }}
+          </p>
+          <p class="action" v-if="homeData.actionText && homeData.actionLink">
+            <NavLink class="action-button" :item="actionLink" />
+          </p>
+        </header>
+
         <!-- PC端features块 s -->
         <div class="features" v-if="hasFeatures && !isMQMobile">
           <div
@@ -93,6 +110,52 @@
     <!-- banner块 e -->
 
     <MainLayout>
+      <template #mainLeft>
+        <!-- 简约版文章列表 -->
+        <UpdateArticle
+          class="card-box"
+          v-if="homeData.postList === 'simple'"
+          :length="homeData.simplePostListLength || 10"
+        />
+
+        <!-- 详情版文章列表 -->
+        <template
+          v-else-if="!homeData.postList || homeData.postList === 'detailed'"
+        >
+          <PostList :currentPage="currentPage" :perPage="perPage" />
+          <Pagination
+            :total="total"
+            :perPage="perPage"
+            :currentPage="currentPage"
+            @getCurrentPage="handlePagination"
+            v-show="Math.ceil(total / perPage) > 1"
+          />
+        </template>
+
+        <Content class="theme-vdoing-content custom card-box" />
+      </template>
+
+      <template #mainRight>
+        <BloggerBar v-if="$themeConfig.blogger" />
+        <CategoriesBar
+          v-if="
+            $themeConfig.category !== false &&
+            $categoriesAndTags.categories.length
+          "
+          :categoriesData="$categoriesAndTags.categories"
+          :length="10"
+        />
+        <TagsBar
+          v-if="$themeConfig.tag !== false && $categoriesAndTags.tags.length"
+          :tagsData="$categoriesAndTags.tags"
+          :length="30"
+        />
+        <div
+          class="custom-html-box card-box"
+          v-if="homeSidebarB"
+          v-html="homeSidebarB"
+        ></div>
+      </template>
     </MainLayout>
   </div>
 </template>
