@@ -23,7 +23,11 @@ function readFileList(dir = docsRoot, filesList = []) {
           } else if (fileNameArr.length === 3) { // 有序号的文件
             name = fileNameArr[1]
             type = fileNameArr[2]
-          } else { // 超过两个‘.’的
+          } else if (fileNameArr.length === 4) { // 有序号的文件
+            name = fileNameArr[2]
+            type = fileNameArr[3]
+          } 
+          else { // 超过两个‘.’的
             log(chalk.yellow(`warning: 该文件 "${filePath}" 没有按照约定命名，将忽略生成相应数据。`))
             return
           }
