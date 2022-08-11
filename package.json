@@ -37,6 +37,7 @@
   "dependencies": {
     "vuepress-plugin-comment": "^0.7.3",
     "vuepress-plugin-robots": "^1.0.1",
-    "vuepress-plugin-sitemap": "^2.3.1"
+    "vuepress-plugin-sitemap": "^2.3.1",
+    "yarn": "^1.22.18"
   }
 }
